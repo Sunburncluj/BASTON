@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baston Légendaire Absurde</title>
+    <title>Baston Légendaire Absurde - Arène Pokémon</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h1>Baston Légendaire Absurde</h1>
+        <h3>Arène Pokémon du Chaos</h3>
         <div class="game-mode">
             <button onclick="startDuel()">Duel 1 vs 1</button>
             <button onclick="startBaston()">Baston Générale</button>
         </div>
         <div id="fighters-selection" class="fighters-selection hidden">
-            <h2>Choisis tes combattants</h2>
+            <h2>Choisis tes combattants, dresseur !</h2>
             <select id="fighter1"></select>
             <select id="fighter2"></select>
             <button onclick="launchDuel()">Lancer le Duel</button>
@@ -25,7 +26,7 @@
             <button onclick="resetGame()" class="hidden" id="reset-btn">Rejouer</button>
         </div>
         <div class="leaderboard">
-            <h2>Leaderboard</h2>
+            <h2>Champions du Chaos</h2>
             <ul id="leaderboard-list"></ul>
         </div>
     </div>
